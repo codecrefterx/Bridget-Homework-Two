@@ -1,0 +1,82 @@
+body{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+  font-size: 1150;
+}
+h1{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #000089;
+  font-size: 10px;
+}
+
+header {
+  background-color: #d3d3d3;
+}
+
+nav {
+  text-decoration: none;
+}
+li{
+  background-color: #feff00;
+}
+ul {
+  display:flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+.current{
+  text-transform: uppercase;
+  background-color: lightblue;
+}
+.image{
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+.grid-container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+
+}
+.image-right{
+float: right;
+}
+
+.grid-item{
+  background-color: white;
+  text-align: center;
+  box-shadow: 0 0 10px rgb(0, 0, 0,0.1);
+
+}
+.flex-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+.flex-item{
+  background-color: white;
+  width: 200px;
+  text-align: center;
+  border-radius: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #000089;
+}
+
+main {
+  background-color: #feff00;
+  min-height: 100px;
+}
+
+footer {
+  background-color: #d3d3d3;
+}
+
+p {
+  line-height: 2;
+}
